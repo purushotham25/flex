@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+
+}
+.container1{
+    display: flex;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+main{
+    background color:rgb(181, 181, 45);
+    color:rgb(181, 181, 45);
+    margin-left: 10px;
+    margin-rigth: 20px;
+    heigth: 5px;
+}
+.sidebar1,.sidebar2{
+    flex-basis: 10%;
+    background-color: brown;
+    color:black;
+}
+header,.nav{
+    margin-bottom: 10px;
+    flex-basis:  50%;
+}
+footer{
+    background-color: blueviolet;
+    margin-top: 20%;
+    color: gold;
+}
+header{
+    background-color: brown;
+}
